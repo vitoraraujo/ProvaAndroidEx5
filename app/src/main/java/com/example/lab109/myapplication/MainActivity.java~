@@ -13,7 +13,7 @@ class MainActivity extends SQLiteOpenHelper {
     private static final String EMAIL = "email";
     private static final int VERSAO = 1;
 
-    public MainActivity(Context context){
+    public CriaBanco(Context context){
         super(context, NOME_BANCO, null, VERSAO);
     }
 
